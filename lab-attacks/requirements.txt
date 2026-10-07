@@ -1,0 +1,6 @@
+# Versions the lab was tested with (Python 3.12). More recent versions are fine.
+torch>=2.2
+torchvision>=0.17
+numpy
+matplotlib
+notebook

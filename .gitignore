@@ -1,0 +1,7 @@
+# Solutions stay out of the public repo
+*.zip
+*_solutions.*
+.DS_Store
+.ipynb_checkpoints/
+.venv/
+__pycache__/
