@@ -68,9 +68,7 @@ Open https://colab.research.google.com, choose File → Open notebook → GitHub
 the notebook, so before anything else add a cell at the top with:
 
 ```
-# download the whole repository into the Colab machine (notebook, models/, data/)
 !git clone https://github.com/lauranenzi/svai-lab.git
-# move into the lab folder, so that the paths models/ and data/ are found
 %cd svai-lab/lab-attacks
 ```
 
