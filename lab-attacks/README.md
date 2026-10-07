@@ -63,16 +63,17 @@ adversarial example are the same thing.
 
 ## Alternative, with nothing to install: Google Colab
 
-Open https://colab.research.google.com, choose File → Open notebook → GitHub, and paste the
-repository URL. Or run this in the first cell:
+Open https://colab.research.google.com, choose File → Open notebook → GitHub, paste
+`https://github.com/lauranenzi/svai-lab` and pick `lab-attacks/lab_attacks.ipynb`. That opens only
+the notebook, so before anything else add a cell at the top with:
 
 ```
 !git clone https://github.com/lauranenzi/svai-lab.git
 %cd svai-lab/lab-attacks
 ```
 
-Then open `lab_attacks.ipynb`. On Colab `torch` is already there. Installing locally is only worth it
-if you want to work offline.
+This brings in `models/` and `data/`; then run the notebook from the top. On Colab `torch` is
+already there. Installing locally is only worth it if you want to work offline.
 
 ## The sanity checks
 
