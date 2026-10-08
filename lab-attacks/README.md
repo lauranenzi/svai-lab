@@ -1,4 +1,4 @@
-# Adversarial attacks on MNIST — in-class demo and take-home exercise
+# Adversarial attacks on MNIST — in-class demo and take-home exercises
 
 **998MG Safe and Verified AI — 2026/27 · Lecture 2 · Università degli Studi di Trieste**
 
@@ -6,8 +6,8 @@ This folder is self-contained: the notebook, the three pre-trained networks, the
 the setup check are all here, and nothing outside it is needed. Work from inside `lab-attacks/`.
 
 Open `lab_attacks.ipynb`, run it from the top, fill in the few lines marked `FILL_IN`, and answer the
-questions in Section 6. Sections 1–5 are the demo we went through in class; Section 6 is the
-exercise you do on your own.
+questions. Sections 1–4 are the demo we went through in class; Sections 5 and 6 are the exercises
+you do on your own.
 
 **There is nothing to submit.** Bring the notebook with the cells executed and the answers written
 in, and we discuss it in the next class. Expect about 90 minutes. No GPU needed: the models come
@@ -77,8 +77,8 @@ already there. Installing locally is only worth it if you want to work offline.
 
 ## The sanity checks
 
-Two cells contain `assert` statements — one after your PGD implementation, one after the exercise
-function. They stop the notebook with an explanatory message if your code is wrong, so that you do
+Two cells contain `assert` statements — one after the attack you complete in Section 5, one after
+the function of Section 6. They stop the notebook with an explanatory message if your code is wrong, so that you do
 not end up with plots that look plausible but are not. If one fires, read the message: it names the
 mistake. The two usual ones are a forgotten projection onto the ball and a missing clamp to $[0,1]$.
 
