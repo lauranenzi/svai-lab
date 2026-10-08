@@ -5,7 +5,7 @@ Instructor: Laura Nenzi (lnenzi@units.it).
 
 | Lab | Topic | Folder |
 |---|---|---|
-| Lecture 2 | Adversarial attacks on MNIST (FGSM, PGD) | [`lab-attacks/`](lab-attacks/) |
+| Lecture 2-3 | Adversarial attacks on MNIST (FGSM, PGD) | [`lab-attacks/`](lab-attacks/) |
 
 Each lab is self-contained in its own folder, with its own README and setup instructions.
 Slides and course announcements are on Teams.
