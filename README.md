@@ -6,6 +6,7 @@ Instructor: Laura Nenzi (lnenzi@units.it).
 | Lab | Topic | Folder |
 |---|---|---|
 | Lecture 2-3 | Adversarial attacks on MNIST (FGSM, PGD) | [`lab-attacks/`](lab-attacks/) |
+| Lecture 7-8 | SMT and LP programs; Reluplex and MILP on an ACAS Xu–style property | [`lab-reluplex-milp/`](lab-reluplex-milp/) |
 
 Each lab is self-contained in its own folder, with its own README and setup instructions.
 Slides and course announcements are on Teams.

@@ -1,0 +1,6 @@
+# Versions the lab was tested with (Python 3.13): z3-solver 5.3, scipy 1.18. More recent versions are fine.
+z3-solver
+scipy>=1.9        # scipy.optimize.milp
+numpy
+matplotlib
+notebook
