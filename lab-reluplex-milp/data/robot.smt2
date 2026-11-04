@@ -9,9 +9,11 @@
 (assert (>= x0 0))                 ; never below 0
 (assert (>= x1 0))
 (assert (and (>= v 0) (<= v 5)))   ; 0 ≤ v ≤ 5
-(assert (= x1 (+ x0 (* 2 v))))     ; x1 = x0 + v*2
-(assert (<= x0 10))                ; must reach 10 at some point
-(assert (>= x1 10))                ; monotone: end reaches ≥10
+(assert (= x1 (+ x0 (* 2 v))))     ; x1 = x0 + 2v
+; "must reach 10 at some point": with v ≥ 0 the arm moves monotonically from x0 to x1,
+; so it passes position 10 exactly when x0 ≤ 10 ≤ x1
+(assert (<= x0 10))
+(assert (>= x1 10))
 
 (check-sat)
 (get-model)

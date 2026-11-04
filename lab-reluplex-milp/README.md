@@ -7,10 +7,11 @@ output, and the property *y ≤ 1500* on an input box. The notebook answers the 
 slide and then compares the methods:
 
 - the bounds of the pre-activations, and which ReLU is stable (interval arithmetic);
-- the satisfiability query in **Z3**, and the same query split by hand on the unstable ReLU, as
-  Reluplex does;
+- the satisfiability query in **Z3**; then what Reluplex does instead: it derives bounds from the
+  equations, which here fix both ReLUs without a split, and splits only what remains;
 - the **MILP** with big-M (one binary) and its **LP relaxation**, with `scipy.optimize.milp`;
-- intervals, LP and MILP side by side on three variants of the property.
+- intervals, LP and MILP side by side on three variants of the property;
+- an optional note on **Marabou**, the successor of Reluplex.
 
 This folder is self-contained. Everything runs in a few seconds, no GPU needed.
 **There is nothing to submit**: the questions at the end are for the next class.
@@ -51,7 +52,8 @@ is all it needs.
 Open https://colab.research.google.com, choose File → Open notebook → GitHub, paste
 `https://github.com/lauranenzi/svai-lab` and pick `lab-reluplex-milp/lab_reluplex_milp.ipynb`.
 Uncomment the `%pip install` line in the first code cell and run the notebook from the top. The
-notebook needs no data files.
+notebook needs no data files. `lab_smt_lp.ipynb` works the same way: on Colab it downloads the
+files of `data/` from the course repository.
 
 ## Common problems
 
