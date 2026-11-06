@@ -1,0 +1,5 @@
+# Versions the lab was tested with (Python 3.11): numpy 2, scipy 1.17, matplotlib 3. More recent versions are fine.
+numpy
+scipy>=1.9
+matplotlib
+notebook
